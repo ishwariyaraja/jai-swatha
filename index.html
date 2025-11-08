@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="maincontainer">
+    <div class="info">
+            <h2> Jai🩵Swetha</h2>
+            <h3>10-11-2025🫶</h3>
+            <p>
+<b><span>🌹💍</span>Romantic Lines:</b><br>
+In your arms, the world is still,
+Every heartbeat whispers, “I will.”
+Together we bloom, like dawn and dew,
+Every sunrise begins with you.</p>
+     <div class="btn">
+            <a href="#" id="showslidebtn">clickme⬇</a>
+      </div>
+  </div>
+<div class="sild" id="sliddive">
+   <div class="silddiv"> 
+    <audio id="myAudio" loop>
+      <source src="vedio/Pottala Muttaye.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+     </audio>
+   </div>
+</div>
+  </div>
+  <script>
+    const audio=document.getElementById("myAudio");
+   document.getElementById("showslidebtn").
+   addEventListener("click",function(event){
+    event.preventDefault();
+    audio.play()
+    document.getElementById("sliddive").classList.add("show")
+   });
+
+  </script>
+</body>
+</html>
