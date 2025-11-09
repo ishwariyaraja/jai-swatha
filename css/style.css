@@ -12,25 +12,25 @@
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
-    animation: phot  linear infinite;
+    animation: phot 25s linear 15s 5;
 }
 @keyframes phot {
     25%{
         background:url("../img/bg.jpg");
-        transition: 15s;
+    
     }
     50%{
         background: url("../img/bg3.jpg");
-        transition:20s;
+        
 
     }
     80%{
         background: url("../img/bg4.jpg");
-        transition: 15s;
+    
     }
     100%{
          background: url("../img/bg2.jpg");
-         transition: 20s;
+         
     }
 }
 .info{
