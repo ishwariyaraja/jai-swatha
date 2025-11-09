@@ -12,23 +12,27 @@
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
-    /* animation: phot 15s linear infinite; */
+    animation: phot  linear infinite;
 }
-/* @keyframes phot {
+@keyframes phot {
     25%{
         background:url("../img/bg.jpg");
+        transition: 15s;
     }
     50%{
         background: url("../img/bg3.jpg");
+        transition:20s;
 
     }
     80%{
         background: url("../img/bg4.jpg");
+        transition: 15s;
     }
     100%{
          background: url("../img/bg2.jpg");
+         transition: 20s;
     }
-} */
+}
 .info{
   padding: 100px 50px;
 }
